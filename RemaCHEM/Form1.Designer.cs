@@ -29,499 +29,58 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.groupBoxStanowiska = new System.Windows.Forms.GroupBox();
-            this.listBoxMeasuringStand = new System.Windows.Forms.ListBox();
-            this.groupBoxStandData = new System.Windows.Forms.GroupBox();
-            this.labelSystemNumber = new System.Windows.Forms.Label();
-            this.textBoxSystemNumber = new System.Windows.Forms.TextBox();
-            this.richTextBoxMaker = new System.Windows.Forms.RichTextBox();
-            this.labelDate = new System.Windows.Forms.Label();
-            this.labelStandType = new System.Windows.Forms.Label();
-            this.dateTimePickerDate = new System.Windows.Forms.DateTimePicker();
-            this.textBoxStandType = new System.Windows.Forms.TextBox();
-            this.labelStandKind = new System.Windows.Forms.Label();
-            this.textBoxStandKind = new System.Windows.Forms.TextBox();
-            this.labelStandName = new System.Windows.Forms.Label();
-            this.comboBoxStandKeeper = new System.Windows.Forms.ComboBox();
-            this.labelStandFactoryNumber = new System.Windows.Forms.Label();
-            this.textBoxStandName = new System.Windows.Forms.TextBox();
-            this.textBoxStandFactoryNumber = new System.Windows.Forms.TextBox();
-            this.labelMaker = new System.Windows.Forms.Label();
-            this.richTextBoxUwagi = new System.Windows.Forms.RichTextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.labelStandKeeper = new System.Windows.Forms.Label();
-            this.groupBoxSort = new System.Windows.Forms.GroupBox();
-            this.radioButtonStandDate = new System.Windows.Forms.RadioButton();
-            this.radioButtonStandName = new System.Windows.Forms.RadioButton();
-            this.radioButtonStandFactoryNumber = new System.Windows.Forms.RadioButton();
-            this.radioButtonStandType = new System.Windows.Forms.RadioButton();
-            this.groupBoxFind = new System.Windows.Forms.GroupBox();
-            this.buttonSzukaj = new System.Windows.Forms.Button();
-            this.textBoxFind = new System.Windows.Forms.TextBox();
-            this.groupBoxEdit = new System.Windows.Forms.GroupBox();
-            this.buttonNew = new System.Windows.Forms.Button();
-            this.buttonDelete = new System.Windows.Forms.Button();
-            this.buttonSave = new System.Windows.Forms.Button();
-            this.buttonCancel = new System.Windows.Forms.Button();
-            this.buttonAddPicture = new System.Windows.Forms.Button();
-            this.buttonDeletePicture = new System.Windows.Forms.Button();
-            this.pictureBoxStandPicture = new System.Windows.Forms.PictureBox();
-            this.groupBoxPicture = new System.Windows.Forms.GroupBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.groupBoxStanowiska.SuspendLayout();
-            this.groupBoxStandData.SuspendLayout();
-            this.groupBoxSort.SuspendLayout();
-            this.groupBoxFind.SuspendLayout();
-            this.groupBoxEdit.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStandPicture)).BeginInit();
-            this.groupBoxPicture.SuspendLayout();
+            this.textBoxNrSystemowyPrzyrzadu = new System.Windows.Forms.TextBox();
+            this.richTextBoxDaneProducentaPrzyrzadu = new System.Windows.Forms.RichTextBox();
+            this.textBoxTypPrzyrzadu = new System.Windows.Forms.TextBox();
+            this.textBoxRodzajPrzyrzadu = new System.Windows.Forms.TextBox();
+            this.comboBoxOpiekunPrzyrzadu = new System.Windows.Forms.ComboBox();
+            this.textBoxNazwaPrzyrzadu = new System.Windows.Forms.TextBox();
+            this.textBoxNrfabrycznyPrzyrzadu = new System.Windows.Forms.TextBox();
+            this.buttonSzukajPrzyrzad = new System.Windows.Forms.Button();
+            this.textBoxZnajdzPrzyrzad = new System.Windows.Forms.TextBox();
+            this.dateTimePickerDataOstPrzegladuPrzyrzadu = new System.Windows.Forms.DateTimePicker();
+            this.buttonAnulujPrzyrzad = new System.Windows.Forms.Button();
+            this.buttonNowyPrzyrzad = new System.Windows.Forms.Button();
+            this.buttonZapiszPrzyrzad = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.buttonUsunPrzyrzad = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.listBoxPrzyrzady = new System.Windows.Forms.ListBox();
+            this.groupBoxPrzyrzady = new System.Windows.Forms.GroupBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.radioButtonOstatniPrzegladPrzyrzadu = new System.Windows.Forms.RadioButton();
+            this.radioButtonNazwaPrzyrzadu = new System.Windows.Forms.RadioButton();
+            this.radioButtonNrSystemowyPrzyrzadu = new System.Windows.Forms.RadioButton();
+            this.radioButtonTypPrzyrzadu = new System.Windows.Forms.RadioButton();
+            this.groupBoxPicture = new System.Windows.Forms.GroupBox();
+            this.buttonWgrajZdjeciePrzyrzad = new System.Windows.Forms.Button();
+            this.pictureBoxZdjeciePrzyrzadu = new System.Windows.Forms.PictureBox();
+            this.buttonUsunZdjeciePrzyrzad = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBoxPrzyrzady.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBoxPicture.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxZdjeciePrzyrzadu)).BeginInit();
             this.SuspendLayout();
-            // 
-            // groupBoxStanowiska
-            // 
-            this.groupBoxStanowiska.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBoxStanowiska.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.groupBoxStanowiska.Controls.Add(this.listBoxMeasuringStand);
-            this.groupBoxStanowiska.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.groupBoxStanowiska.ForeColor = System.Drawing.Color.White;
-            this.groupBoxStanowiska.Location = new System.Drawing.Point(1, 110);
-            this.groupBoxStanowiska.Name = "groupBoxStanowiska";
-            this.groupBoxStanowiska.Size = new System.Drawing.Size(321, 492);
-            this.groupBoxStanowiska.TabIndex = 2;
-            this.groupBoxStanowiska.TabStop = false;
-            this.groupBoxStanowiska.Text = "Lista stanowisk";
-            // 
-            // listBoxMeasuringStand
-            // 
-            this.listBoxMeasuringStand.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.listBoxMeasuringStand.BackColor = System.Drawing.Color.Azure;
-            this.listBoxMeasuringStand.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.listBoxMeasuringStand.FormattingEnabled = true;
-            this.listBoxMeasuringStand.ItemHeight = 20;
-            this.listBoxMeasuringStand.Location = new System.Drawing.Point(6, 25);
-            this.listBoxMeasuringStand.Name = "listBoxMeasuringStand";
-            this.listBoxMeasuringStand.Size = new System.Drawing.Size(309, 444);
-            this.listBoxMeasuringStand.TabIndex = 0;
-            // 
-            // groupBoxStandData
-            // 
-            this.groupBoxStandData.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBoxStandData.Controls.Add(this.labelSystemNumber);
-            this.groupBoxStandData.Controls.Add(this.textBoxSystemNumber);
-            this.groupBoxStandData.Controls.Add(this.richTextBoxMaker);
-            this.groupBoxStandData.Controls.Add(this.labelDate);
-            this.groupBoxStandData.Controls.Add(this.labelStandType);
-            this.groupBoxStandData.Controls.Add(this.dateTimePickerDate);
-            this.groupBoxStandData.Controls.Add(this.textBoxStandType);
-            this.groupBoxStandData.Controls.Add(this.labelStandKind);
-            this.groupBoxStandData.Controls.Add(this.textBoxStandKind);
-            this.groupBoxStandData.Controls.Add(this.labelStandName);
-            this.groupBoxStandData.Controls.Add(this.comboBoxStandKeeper);
-            this.groupBoxStandData.Controls.Add(this.labelStandFactoryNumber);
-            this.groupBoxStandData.Controls.Add(this.textBoxStandName);
-            this.groupBoxStandData.Controls.Add(this.textBoxStandFactoryNumber);
-            this.groupBoxStandData.Controls.Add(this.labelMaker);
-            this.groupBoxStandData.Controls.Add(this.richTextBoxUwagi);
-            this.groupBoxStandData.Controls.Add(this.label14);
-            this.groupBoxStandData.Controls.Add(this.labelStandKeeper);
-            this.groupBoxStandData.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBoxStandData.ForeColor = System.Drawing.Color.White;
-            this.groupBoxStandData.Location = new System.Drawing.Point(328, 28);
-            this.groupBoxStandData.Name = "groupBoxStandData";
-            this.groupBoxStandData.Size = new System.Drawing.Size(525, 512);
-            this.groupBoxStandData.TabIndex = 47;
-            this.groupBoxStandData.TabStop = false;
-            this.groupBoxStandData.Text = "Dane stanowiska";
-            // 
-            // labelSystemNumber
-            // 
-            this.labelSystemNumber.AutoSize = true;
-            this.labelSystemNumber.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.labelSystemNumber.Location = new System.Drawing.Point(11, 225);
-            this.labelSystemNumber.Name = "labelSystemNumber";
-            this.labelSystemNumber.Size = new System.Drawing.Size(84, 20);
-            this.labelSystemNumber.TabIndex = 43;
-            this.labelSystemNumber.Text = "Nr systemowy";
-            // 
-            // textBoxSystemNumber
-            // 
-            this.textBoxSystemNumber.BackColor = System.Drawing.Color.Azure;
-            this.textBoxSystemNumber.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.textBoxSystemNumber.Location = new System.Drawing.Point(116, 225);
-            this.textBoxSystemNumber.Name = "textBoxSystemNumber";
-            this.textBoxSystemNumber.Size = new System.Drawing.Size(380, 24);
-            this.textBoxSystemNumber.TabIndex = 44;
-            // 
-            // richTextBoxMaker
-            // 
-            this.richTextBoxMaker.BackColor = System.Drawing.Color.Azure;
-            this.richTextBoxMaker.Location = new System.Drawing.Point(116, 276);
-            this.richTextBoxMaker.Name = "richTextBoxMaker";
-            this.richTextBoxMaker.Size = new System.Drawing.Size(380, 46);
-            this.richTextBoxMaker.TabIndex = 42;
-            this.richTextBoxMaker.Text = "";
-            // 
-            // labelDate
-            // 
-            this.labelDate.AutoSize = true;
-            this.labelDate.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.labelDate.Location = new System.Drawing.Point(11, 353);
-            this.labelDate.Name = "labelDate";
-            this.labelDate.Size = new System.Drawing.Size(152, 20);
-            this.labelDate.TabIndex = 25;
-            this.labelDate.Text = "Data ostatniego przegladu";
-            // 
-            // labelStandType
-            // 
-            this.labelStandType.AutoSize = true;
-            this.labelStandType.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.labelStandType.Location = new System.Drawing.Point(11, 74);
-            this.labelStandType.Name = "labelStandType";
-            this.labelStandType.Size = new System.Drawing.Size(30, 20);
-            this.labelStandType.TabIndex = 9;
-            this.labelStandType.Text = "Typ";
-            // 
-            // dateTimePickerDate
-            // 
-            this.dateTimePickerDate.CalendarMonthBackground = System.Drawing.Color.Linen;
-            this.dateTimePickerDate.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.dateTimePickerDate.Location = new System.Drawing.Point(207, 353);
-            this.dateTimePickerDate.Name = "dateTimePickerDate";
-            this.dateTimePickerDate.Size = new System.Drawing.Size(289, 24);
-            this.dateTimePickerDate.TabIndex = 36;
-            // 
-            // textBoxStandType
-            // 
-            this.textBoxStandType.BackColor = System.Drawing.Color.Azure;
-            this.textBoxStandType.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.textBoxStandType.Location = new System.Drawing.Point(116, 70);
-            this.textBoxStandType.Name = "textBoxStandType";
-            this.textBoxStandType.Size = new System.Drawing.Size(380, 24);
-            this.textBoxStandType.TabIndex = 8;
-            // 
-            // labelStandKind
-            // 
-            this.labelStandKind.AutoSize = true;
-            this.labelStandKind.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.labelStandKind.Location = new System.Drawing.Point(11, 121);
-            this.labelStandKind.Name = "labelStandKind";
-            this.labelStandKind.Size = new System.Drawing.Size(47, 20);
-            this.labelStandKind.TabIndex = 10;
-            this.labelStandKind.Text = "Rodzaj";
-            // 
-            // textBoxStandKind
-            // 
-            this.textBoxStandKind.BackColor = System.Drawing.Color.Azure;
-            this.textBoxStandKind.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.textBoxStandKind.Location = new System.Drawing.Point(116, 121);
-            this.textBoxStandKind.Name = "textBoxStandKind";
-            this.textBoxStandKind.Size = new System.Drawing.Size(380, 24);
-            this.textBoxStandKind.TabIndex = 11;
-            // 
-            // labelStandName
-            // 
-            this.labelStandName.AutoSize = true;
-            this.labelStandName.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.labelStandName.Location = new System.Drawing.Point(11, 25);
-            this.labelStandName.Name = "labelStandName";
-            this.labelStandName.Size = new System.Drawing.Size(46, 20);
-            this.labelStandName.TabIndex = 7;
-            this.labelStandName.Text = "Nazwa";
-            // 
-            // comboBoxStandKeeper
-            // 
-            this.comboBoxStandKeeper.BackColor = System.Drawing.Color.Azure;
-            this.comboBoxStandKeeper.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.comboBoxStandKeeper.FormattingEnabled = true;
-            this.comboBoxStandKeeper.Location = new System.Drawing.Point(207, 394);
-            this.comboBoxStandKeeper.Name = "comboBoxStandKeeper";
-            this.comboBoxStandKeeper.Size = new System.Drawing.Size(289, 28);
-            this.comboBoxStandKeeper.TabIndex = 33;
-            // 
-            // labelStandFactoryNumber
-            // 
-            this.labelStandFactoryNumber.AutoSize = true;
-            this.labelStandFactoryNumber.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.labelStandFactoryNumber.Location = new System.Drawing.Point(11, 179);
-            this.labelStandFactoryNumber.Name = "labelStandFactoryNumber";
-            this.labelStandFactoryNumber.Size = new System.Drawing.Size(75, 20);
-            this.labelStandFactoryNumber.TabIndex = 13;
-            this.labelStandFactoryNumber.Text = "Nr fabryczny";
-            this.labelStandFactoryNumber.Click += new System.EventHandler(this.labelNrFabrycznyMaszyny_Click);
-            // 
-            // textBoxStandName
-            // 
-            this.textBoxStandName.BackColor = System.Drawing.Color.Azure;
-            this.textBoxStandName.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.textBoxStandName.Location = new System.Drawing.Point(116, 25);
-            this.textBoxStandName.Name = "textBoxStandName";
-            this.textBoxStandName.Size = new System.Drawing.Size(380, 24);
-            this.textBoxStandName.TabIndex = 6;
-            // 
-            // textBoxStandFactoryNumber
-            // 
-            this.textBoxStandFactoryNumber.BackColor = System.Drawing.Color.Azure;
-            this.textBoxStandFactoryNumber.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.textBoxStandFactoryNumber.Location = new System.Drawing.Point(116, 179);
-            this.textBoxStandFactoryNumber.Name = "textBoxStandFactoryNumber";
-            this.textBoxStandFactoryNumber.Size = new System.Drawing.Size(380, 24);
-            this.textBoxStandFactoryNumber.TabIndex = 14;
-            this.textBoxStandFactoryNumber.TextChanged += new System.EventHandler(this.textBoxNr_fabryczny_TextChanged);
-            // 
-            // labelMaker
-            // 
-            this.labelMaker.AutoSize = true;
-            this.labelMaker.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.labelMaker.Location = new System.Drawing.Point(11, 276);
-            this.labelMaker.Name = "labelMaker";
-            this.labelMaker.Size = new System.Drawing.Size(105, 20);
-            this.labelMaker.TabIndex = 15;
-            this.labelMaker.Text = "Dane producenta";
-            // 
-            // richTextBoxUwagi
-            // 
-            this.richTextBoxUwagi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.richTextBoxUwagi.BackColor = System.Drawing.Color.Linen;
-            this.richTextBoxUwagi.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.richTextBoxUwagi.Location = new System.Drawing.Point(6, 779);
-            this.richTextBoxUwagi.Name = "richTextBoxUwagi";
-            this.richTextBoxUwagi.Size = new System.Drawing.Size(502, 0);
-            this.richTextBoxUwagi.TabIndex = 30;
-            this.richTextBoxUwagi.Text = "";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.label14.Location = new System.Drawing.Point(6, 762);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(44, 20);
-            this.label14.TabIndex = 29;
-            this.label14.Text = "Uwagi";
-            // 
-            // labelStandKeeper
-            // 
-            this.labelStandKeeper.AutoSize = true;
-            this.labelStandKeeper.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.labelStandKeeper.Location = new System.Drawing.Point(11, 397);
-            this.labelStandKeeper.Name = "labelStandKeeper";
-            this.labelStandKeeper.Size = new System.Drawing.Size(105, 20);
-            this.labelStandKeeper.TabIndex = 21;
-            this.labelStandKeeper.Text = "Opiekun maszyny";
-            // 
-            // groupBoxSort
-            // 
-            this.groupBoxSort.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.groupBoxSort.Controls.Add(this.radioButtonStandDate);
-            this.groupBoxSort.Controls.Add(this.radioButtonStandName);
-            this.groupBoxSort.Controls.Add(this.radioButtonStandFactoryNumber);
-            this.groupBoxSort.Controls.Add(this.radioButtonStandType);
-            this.groupBoxSort.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBoxSort.ForeColor = System.Drawing.Color.White;
-            this.groupBoxSort.Location = new System.Drawing.Point(7, 28);
-            this.groupBoxSort.Name = "groupBoxSort";
-            this.groupBoxSort.Size = new System.Drawing.Size(315, 76);
-            this.groupBoxSort.TabIndex = 48;
-            this.groupBoxSort.TabStop = false;
-            this.groupBoxSort.Text = "Sortowanie";
-            // 
-            // radioButtonStandDate
-            // 
-            this.radioButtonStandDate.AutoSize = true;
-            this.radioButtonStandDate.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.radioButtonStandDate.ForeColor = System.Drawing.Color.White;
-            this.radioButtonStandDate.Location = new System.Drawing.Point(161, 46);
-            this.radioButtonStandDate.Name = "radioButtonStandDate";
-            this.radioButtonStandDate.Size = new System.Drawing.Size(116, 24);
-            this.radioButtonStandDate.TabIndex = 6;
-            this.radioButtonStandDate.Text = "Ostatni przegląd";
-            this.radioButtonStandDate.UseVisualStyleBackColor = true;
-            // 
-            // radioButtonStandName
-            // 
-            this.radioButtonStandName.AutoSize = true;
-            this.radioButtonStandName.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.radioButtonStandName.ForeColor = System.Drawing.Color.White;
-            this.radioButtonStandName.Location = new System.Drawing.Point(15, 21);
-            this.radioButtonStandName.Name = "radioButtonStandName";
-            this.radioButtonStandName.Size = new System.Drawing.Size(64, 24);
-            this.radioButtonStandName.TabIndex = 4;
-            this.radioButtonStandName.Text = "Nazwa";
-            this.radioButtonStandName.UseVisualStyleBackColor = true;
-            // 
-            // radioButtonStandFactoryNumber
-            // 
-            this.radioButtonStandFactoryNumber.AutoSize = true;
-            this.radioButtonStandFactoryNumber.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.radioButtonStandFactoryNumber.ForeColor = System.Drawing.Color.White;
-            this.radioButtonStandFactoryNumber.Location = new System.Drawing.Point(161, 21);
-            this.radioButtonStandFactoryNumber.Name = "radioButtonStandFactoryNumber";
-            this.radioButtonStandFactoryNumber.Size = new System.Drawing.Size(93, 24);
-            this.radioButtonStandFactoryNumber.TabIndex = 2;
-            this.radioButtonStandFactoryNumber.Text = "Nr fabryczny";
-            this.radioButtonStandFactoryNumber.UseVisualStyleBackColor = true;
-            // 
-            // radioButtonStandType
-            // 
-            this.radioButtonStandType.AutoSize = true;
-            this.radioButtonStandType.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.radioButtonStandType.ForeColor = System.Drawing.Color.White;
-            this.radioButtonStandType.Location = new System.Drawing.Point(15, 46);
-            this.radioButtonStandType.Name = "radioButtonStandType";
-            this.radioButtonStandType.Size = new System.Drawing.Size(48, 24);
-            this.radioButtonStandType.TabIndex = 0;
-            this.radioButtonStandType.Text = "Typ";
-            this.radioButtonStandType.UseVisualStyleBackColor = true;
-            // 
-            // groupBoxFind
-            // 
-            this.groupBoxFind.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.groupBoxFind.Controls.Add(this.buttonSzukaj);
-            this.groupBoxFind.Controls.Add(this.textBoxFind);
-            this.groupBoxFind.Cursor = System.Windows.Forms.Cursors.Default;
-            this.groupBoxFind.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBoxFind.ForeColor = System.Drawing.Color.White;
-            this.groupBoxFind.Location = new System.Drawing.Point(859, 542);
-            this.groupBoxFind.Name = "groupBoxFind";
-            this.groupBoxFind.Size = new System.Drawing.Size(396, 60);
-            this.groupBoxFind.TabIndex = 49;
-            this.groupBoxFind.TabStop = false;
-            this.groupBoxFind.Text = "Wyszukiwanie po nazwie";
-            // 
-            // buttonSzukaj
-            // 
-            this.buttonSzukaj.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.buttonSzukaj.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonSzukaj.BackgroundImage")));
-            this.buttonSzukaj.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonSzukaj.Location = new System.Drawing.Point(355, 19);
-            this.buttonSzukaj.Name = "buttonSzukaj";
-            this.buttonSzukaj.Size = new System.Drawing.Size(35, 34);
-            this.buttonSzukaj.TabIndex = 4;
-            this.buttonSzukaj.UseVisualStyleBackColor = false;
-            // 
-            // textBoxFind
-            // 
-            this.textBoxFind.BackColor = System.Drawing.Color.Linen;
-            this.textBoxFind.Font = new System.Drawing.Font("Arial Narrow", 11F);
-            this.textBoxFind.Location = new System.Drawing.Point(9, 23);
-            this.textBoxFind.Name = "textBoxFind";
-            this.textBoxFind.Size = new System.Drawing.Size(340, 24);
-            this.textBoxFind.TabIndex = 44;
-            // 
-            // groupBoxEdit
-            // 
-            this.groupBoxEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBoxEdit.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.groupBoxEdit.Controls.Add(this.buttonNew);
-            this.groupBoxEdit.Controls.Add(this.buttonDelete);
-            this.groupBoxEdit.Controls.Add(this.buttonSave);
-            this.groupBoxEdit.Controls.Add(this.buttonCancel);
-            this.groupBoxEdit.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBoxEdit.ForeColor = System.Drawing.Color.White;
-            this.groupBoxEdit.Location = new System.Drawing.Point(328, 546);
-            this.groupBoxEdit.Name = "groupBoxEdit";
-            this.groupBoxEdit.Size = new System.Drawing.Size(525, 56);
-            this.groupBoxEdit.TabIndex = 50;
-            this.groupBoxEdit.TabStop = false;
-            this.groupBoxEdit.Text = "Edycja";
-            // 
-            // buttonNew
-            // 
-            this.buttonNew.BackColor = System.Drawing.Color.DarkCyan;
-            this.buttonNew.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.buttonNew.Location = new System.Drawing.Point(16, 20);
-            this.buttonNew.Name = "buttonNew";
-            this.buttonNew.Size = new System.Drawing.Size(100, 30);
-            this.buttonNew.TabIndex = 2;
-            this.buttonNew.Text = "Nowa";
-            this.buttonNew.UseVisualStyleBackColor = false;
-            // 
-            // buttonDelete
-            // 
-            this.buttonDelete.BackColor = System.Drawing.Color.Teal;
-            this.buttonDelete.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.buttonDelete.Location = new System.Drawing.Point(396, 20);
-            this.buttonDelete.Name = "buttonDelete";
-            this.buttonDelete.Size = new System.Drawing.Size(100, 30);
-            this.buttonDelete.TabIndex = 4;
-            this.buttonDelete.Text = "Usuń";
-            this.buttonDelete.UseVisualStyleBackColor = false;
-            // 
-            // buttonSave
-            // 
-            this.buttonSave.BackColor = System.Drawing.Color.Teal;
-            this.buttonSave.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.buttonSave.Location = new System.Drawing.Point(145, 20);
-            this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(100, 30);
-            this.buttonSave.TabIndex = 3;
-            this.buttonSave.Text = "Zapisz";
-            this.buttonSave.UseVisualStyleBackColor = false;
-            // 
-            // buttonCancel
-            // 
-            this.buttonCancel.BackColor = System.Drawing.Color.Teal;
-            this.buttonCancel.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.buttonCancel.Location = new System.Drawing.Point(265, 20);
-            this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(100, 30);
-            this.buttonCancel.TabIndex = 3;
-            this.buttonCancel.Text = "Anuluj";
-            this.buttonCancel.UseVisualStyleBackColor = false;
-            // 
-            // buttonAddPicture
-            // 
-            this.buttonAddPicture.BackColor = System.Drawing.Color.SeaGreen;
-            this.buttonAddPicture.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.buttonAddPicture.Location = new System.Drawing.Point(6, 474);
-            this.buttonAddPicture.Name = "buttonAddPicture";
-            this.buttonAddPicture.Size = new System.Drawing.Size(170, 27);
-            this.buttonAddPicture.TabIndex = 53;
-            this.buttonAddPicture.Text = "Wgraj zdjęcie";
-            this.buttonAddPicture.UseVisualStyleBackColor = false;
-            // 
-            // buttonDeletePicture
-            // 
-            this.buttonDeletePicture.BackColor = System.Drawing.Color.SeaGreen;
-            this.buttonDeletePicture.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.buttonDeletePicture.Location = new System.Drawing.Point(220, 474);
-            this.buttonDeletePicture.Name = "buttonDeletePicture";
-            this.buttonDeletePicture.Size = new System.Drawing.Size(170, 27);
-            this.buttonDeletePicture.TabIndex = 52;
-            this.buttonDeletePicture.Text = "Usuń zdjęcie";
-            this.buttonDeletePicture.UseVisualStyleBackColor = false;
-            // 
-            // pictureBoxStandPicture
-            // 
-            this.pictureBoxStandPicture.Location = new System.Drawing.Point(6, 21);
-            this.pictureBoxStandPicture.Name = "pictureBoxStandPicture";
-            this.pictureBoxStandPicture.Size = new System.Drawing.Size(384, 447);
-            this.pictureBoxStandPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxStandPicture.TabIndex = 51;
-            this.pictureBoxStandPicture.TabStop = false;
-            // 
-            // groupBoxPicture
-            // 
-            this.groupBoxPicture.Controls.Add(this.buttonAddPicture);
-            this.groupBoxPicture.Controls.Add(this.pictureBoxStandPicture);
-            this.groupBoxPicture.Controls.Add(this.buttonDeletePicture);
-            this.groupBoxPicture.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
-            this.groupBoxPicture.ForeColor = System.Drawing.Color.White;
-            this.groupBoxPicture.Location = new System.Drawing.Point(859, 28);
-            this.groupBoxPicture.Name = "groupBoxPicture";
-            this.groupBoxPicture.Size = new System.Drawing.Size(396, 512);
-            this.groupBoxPicture.TabIndex = 54;
-            this.groupBoxPicture.TabStop = false;
-            this.groupBoxPicture.Text = "Zdjęcie";
             // 
             // toolStrip1
             // 
@@ -563,85 +122,531 @@
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(87, 17);
             this.toolStripStatusLabel1.Text = "Stanowisko ID: ";
             // 
+            // textBoxNrSystemowyPrzyrzadu
+            // 
+            this.textBoxNrSystemowyPrzyrzadu.BackColor = System.Drawing.Color.Azure;
+            this.textBoxNrSystemowyPrzyrzadu.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.textBoxNrSystemowyPrzyrzadu.Location = new System.Drawing.Point(116, 225);
+            this.textBoxNrSystemowyPrzyrzadu.Name = "textBoxNrSystemowyPrzyrzadu";
+            this.textBoxNrSystemowyPrzyrzadu.Size = new System.Drawing.Size(380, 24);
+            this.textBoxNrSystemowyPrzyrzadu.TabIndex = 44;
+            // 
+            // richTextBoxDaneProducentaPrzyrzadu
+            // 
+            this.richTextBoxDaneProducentaPrzyrzadu.BackColor = System.Drawing.Color.Azure;
+            this.richTextBoxDaneProducentaPrzyrzadu.Location = new System.Drawing.Point(16, 299);
+            this.richTextBoxDaneProducentaPrzyrzadu.Name = "richTextBoxDaneProducentaPrzyrzadu";
+            this.richTextBoxDaneProducentaPrzyrzadu.Size = new System.Drawing.Size(480, 89);
+            this.richTextBoxDaneProducentaPrzyrzadu.TabIndex = 42;
+            this.richTextBoxDaneProducentaPrzyrzadu.Text = "";
+            // 
+            // textBoxTypPrzyrzadu
+            // 
+            this.textBoxTypPrzyrzadu.BackColor = System.Drawing.Color.Azure;
+            this.textBoxTypPrzyrzadu.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.textBoxTypPrzyrzadu.Location = new System.Drawing.Point(116, 70);
+            this.textBoxTypPrzyrzadu.Name = "textBoxTypPrzyrzadu";
+            this.textBoxTypPrzyrzadu.Size = new System.Drawing.Size(380, 24);
+            this.textBoxTypPrzyrzadu.TabIndex = 8;
+            // 
+            // textBoxRodzajPrzyrzadu
+            // 
+            this.textBoxRodzajPrzyrzadu.BackColor = System.Drawing.Color.Azure;
+            this.textBoxRodzajPrzyrzadu.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.textBoxRodzajPrzyrzadu.Location = new System.Drawing.Point(116, 121);
+            this.textBoxRodzajPrzyrzadu.Name = "textBoxRodzajPrzyrzadu";
+            this.textBoxRodzajPrzyrzadu.Size = new System.Drawing.Size(380, 24);
+            this.textBoxRodzajPrzyrzadu.TabIndex = 11;
+            // 
+            // comboBoxOpiekunPrzyrzadu
+            // 
+            this.comboBoxOpiekunPrzyrzadu.BackColor = System.Drawing.Color.Azure;
+            this.comboBoxOpiekunPrzyrzadu.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.comboBoxOpiekunPrzyrzadu.FormattingEnabled = true;
+            this.comboBoxOpiekunPrzyrzadu.Location = new System.Drawing.Point(207, 459);
+            this.comboBoxOpiekunPrzyrzadu.Name = "comboBoxOpiekunPrzyrzadu";
+            this.comboBoxOpiekunPrzyrzadu.Size = new System.Drawing.Size(289, 28);
+            this.comboBoxOpiekunPrzyrzadu.TabIndex = 33;
+            // 
+            // textBoxNazwaPrzyrzadu
+            // 
+            this.textBoxNazwaPrzyrzadu.BackColor = System.Drawing.Color.Azure;
+            this.textBoxNazwaPrzyrzadu.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.textBoxNazwaPrzyrzadu.Location = new System.Drawing.Point(116, 25);
+            this.textBoxNazwaPrzyrzadu.Name = "textBoxNazwaPrzyrzadu";
+            this.textBoxNazwaPrzyrzadu.Size = new System.Drawing.Size(380, 24);
+            this.textBoxNazwaPrzyrzadu.TabIndex = 6;
+            // 
+            // textBoxNrfabrycznyPrzyrzadu
+            // 
+            this.textBoxNrfabrycznyPrzyrzadu.BackColor = System.Drawing.Color.Azure;
+            this.textBoxNrfabrycznyPrzyrzadu.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.textBoxNrfabrycznyPrzyrzadu.Location = new System.Drawing.Point(116, 179);
+            this.textBoxNrfabrycznyPrzyrzadu.Name = "textBoxNrfabrycznyPrzyrzadu";
+            this.textBoxNrfabrycznyPrzyrzadu.Size = new System.Drawing.Size(380, 24);
+            this.textBoxNrfabrycznyPrzyrzadu.TabIndex = 14;
+            // 
+            // buttonSzukajPrzyrzad
+            // 
+            this.buttonSzukajPrzyrzad.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.buttonSzukajPrzyrzad.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonSzukajPrzyrzad.BackgroundImage")));
+            this.buttonSzukajPrzyrzad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonSzukajPrzyrzad.Location = new System.Drawing.Point(343, 24);
+            this.buttonSzukajPrzyrzad.Name = "buttonSzukajPrzyrzad";
+            this.buttonSzukajPrzyrzad.Size = new System.Drawing.Size(35, 34);
+            this.buttonSzukajPrzyrzad.TabIndex = 4;
+            this.buttonSzukajPrzyrzad.UseVisualStyleBackColor = false;
+            // 
+            // textBoxZnajdzPrzyrzad
+            // 
+            this.textBoxZnajdzPrzyrzad.BackColor = System.Drawing.Color.Linen;
+            this.textBoxZnajdzPrzyrzad.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.textBoxZnajdzPrzyrzad.Location = new System.Drawing.Point(6, 28);
+            this.textBoxZnajdzPrzyrzad.Name = "textBoxZnajdzPrzyrzad";
+            this.textBoxZnajdzPrzyrzad.Size = new System.Drawing.Size(321, 24);
+            this.textBoxZnajdzPrzyrzad.TabIndex = 44;
+            // 
+            // dateTimePickerDataOstPrzegladuPrzyrzadu
+            // 
+            this.dateTimePickerDataOstPrzegladuPrzyrzadu.CalendarMonthBackground = System.Drawing.Color.Linen;
+            this.dateTimePickerDataOstPrzegladuPrzyrzadu.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.dateTimePickerDataOstPrzegladuPrzyrzadu.Location = new System.Drawing.Point(207, 418);
+            this.dateTimePickerDataOstPrzegladuPrzyrzadu.Name = "dateTimePickerDataOstPrzegladuPrzyrzadu";
+            this.dateTimePickerDataOstPrzegladuPrzyrzadu.Size = new System.Drawing.Size(289, 24);
+            this.dateTimePickerDataOstPrzegladuPrzyrzadu.TabIndex = 36;
+            // 
+            // buttonAnulujPrzyrzad
+            // 
+            this.buttonAnulujPrzyrzad.BackColor = System.Drawing.Color.Linen;
+            this.buttonAnulujPrzyrzad.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.buttonAnulujPrzyrzad.Location = new System.Drawing.Point(265, 20);
+            this.buttonAnulujPrzyrzad.Name = "buttonAnulujPrzyrzad";
+            this.buttonAnulujPrzyrzad.Size = new System.Drawing.Size(100, 30);
+            this.buttonAnulujPrzyrzad.TabIndex = 3;
+            this.buttonAnulujPrzyrzad.Text = "Anuluj";
+            this.buttonAnulujPrzyrzad.UseVisualStyleBackColor = false;
+            // 
+            // buttonNowyPrzyrzad
+            // 
+            this.buttonNowyPrzyrzad.BackColor = System.Drawing.Color.Linen;
+            this.buttonNowyPrzyrzad.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.buttonNowyPrzyrzad.Location = new System.Drawing.Point(16, 20);
+            this.buttonNowyPrzyrzad.Name = "buttonNowyPrzyrzad";
+            this.buttonNowyPrzyrzad.Size = new System.Drawing.Size(100, 30);
+            this.buttonNowyPrzyrzad.TabIndex = 2;
+            this.buttonNowyPrzyrzad.Text = "Nowy";
+            this.buttonNowyPrzyrzad.UseVisualStyleBackColor = false;
+            // 
+            // buttonZapiszPrzyrzad
+            // 
+            this.buttonZapiszPrzyrzad.BackColor = System.Drawing.Color.Linen;
+            this.buttonZapiszPrzyrzad.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.buttonZapiszPrzyrzad.Location = new System.Drawing.Point(145, 20);
+            this.buttonZapiszPrzyrzad.Name = "buttonZapiszPrzyrzad";
+            this.buttonZapiszPrzyrzad.Size = new System.Drawing.Size(100, 30);
+            this.buttonZapiszPrzyrzad.TabIndex = 3;
+            this.buttonZapiszPrzyrzad.Text = "Zapisz";
+            this.buttonZapiszPrzyrzad.UseVisualStyleBackColor = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBox2.BackColor = System.Drawing.Color.Bisque;
+            this.groupBox2.Controls.Add(this.buttonNowyPrzyrzad);
+            this.groupBox2.Controls.Add(this.buttonUsunPrzyrzad);
+            this.groupBox2.Controls.Add(this.buttonZapiszPrzyrzad);
+            this.groupBox2.Controls.Add(this.buttonAnulujPrzyrzad);
+            this.groupBox2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.ForeColor = System.Drawing.Color.Black;
+            this.groupBox2.Location = new System.Drawing.Point(334, 542);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(525, 60);
+            this.groupBox2.TabIndex = 65;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Edycja";
+            // 
+            // buttonUsunPrzyrzad
+            // 
+            this.buttonUsunPrzyrzad.BackColor = System.Drawing.Color.Linen;
+            this.buttonUsunPrzyrzad.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.buttonUsunPrzyrzad.Location = new System.Drawing.Point(396, 20);
+            this.buttonUsunPrzyrzad.Name = "buttonUsunPrzyrzad";
+            this.buttonUsunPrzyrzad.Size = new System.Drawing.Size(100, 30);
+            this.buttonUsunPrzyrzad.TabIndex = 4;
+            this.buttonUsunPrzyrzad.Text = "Usuń";
+            this.buttonUsunPrzyrzad.UseVisualStyleBackColor = false;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.Bisque;
+            this.groupBox3.Controls.Add(this.buttonSzukajPrzyrzad);
+            this.groupBox3.Controls.Add(this.textBoxZnajdzPrzyrzad);
+            this.groupBox3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.groupBox3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox3.ForeColor = System.Drawing.Color.Black;
+            this.groupBox3.Location = new System.Drawing.Point(866, 31);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(384, 70);
+            this.groupBox3.TabIndex = 64;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Wyszukiwanie po nazwie";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBox4.BackColor = System.Drawing.Color.Bisque;
+            this.groupBox4.Controls.Add(this.label1);
+            this.groupBox4.Controls.Add(this.textBoxNrSystemowyPrzyrzadu);
+            this.groupBox4.Controls.Add(this.richTextBoxDaneProducentaPrzyrzadu);
+            this.groupBox4.Controls.Add(this.label2);
+            this.groupBox4.Controls.Add(this.label3);
+            this.groupBox4.Controls.Add(this.dateTimePickerDataOstPrzegladuPrzyrzadu);
+            this.groupBox4.Controls.Add(this.textBoxTypPrzyrzadu);
+            this.groupBox4.Controls.Add(this.label4);
+            this.groupBox4.Controls.Add(this.textBoxRodzajPrzyrzadu);
+            this.groupBox4.Controls.Add(this.label5);
+            this.groupBox4.Controls.Add(this.comboBoxOpiekunPrzyrzadu);
+            this.groupBox4.Controls.Add(this.label6);
+            this.groupBox4.Controls.Add(this.textBoxNazwaPrzyrzadu);
+            this.groupBox4.Controls.Add(this.textBoxNrfabrycznyPrzyrzadu);
+            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Controls.Add(this.richTextBox1);
+            this.groupBox4.Controls.Add(this.label27);
+            this.groupBox4.Controls.Add(this.label8);
+            this.groupBox4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox4.ForeColor = System.Drawing.Color.Black;
+            this.groupBox4.Location = new System.Drawing.Point(334, 31);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(525, 505);
+            this.groupBox4.TabIndex = 62;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Dane przyrządu pomiarowego";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.label1.Location = new System.Drawing.Point(11, 225);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 20);
+            this.label1.TabIndex = 43;
+            this.label1.Text = "Nr systemowy";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.label2.Location = new System.Drawing.Point(11, 418);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(152, 20);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Data ostatniego przegladu";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.label3.Location = new System.Drawing.Point(11, 74);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(30, 20);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Typ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.label4.Location = new System.Drawing.Point(11, 121);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(47, 20);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Rodzaj";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.label5.Location = new System.Drawing.Point(11, 25);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 20);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Nazwa";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.label6.Location = new System.Drawing.Point(11, 179);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(75, 20);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Nr fabryczny";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.label7.Location = new System.Drawing.Point(11, 276);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(105, 20);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Dane producenta";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.richTextBox1.BackColor = System.Drawing.Color.Linen;
+            this.richTextBox1.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.richTextBox1.Location = new System.Drawing.Point(6, 779);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(502, 161);
+            this.richTextBox1.TabIndex = 30;
+            this.richTextBox1.Text = "";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.label27.Location = new System.Drawing.Point(6, 762);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(44, 20);
+            this.label27.TabIndex = 29;
+            this.label27.Text = "Uwagi";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.label8.Location = new System.Drawing.Point(11, 462);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(189, 20);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "Opiekun przyrządu pomiarowego";
+            // 
+            // listBoxPrzyrzady
+            // 
+            this.listBoxPrzyrzady.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.listBoxPrzyrzady.BackColor = System.Drawing.Color.Azure;
+            this.listBoxPrzyrzady.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.listBoxPrzyrzady.FormattingEnabled = true;
+            this.listBoxPrzyrzady.ItemHeight = 20;
+            this.listBoxPrzyrzady.Location = new System.Drawing.Point(15, 25);
+            this.listBoxPrzyrzady.Name = "listBoxPrzyrzady";
+            this.listBoxPrzyrzady.Size = new System.Drawing.Size(283, 444);
+            this.listBoxPrzyrzady.TabIndex = 0;
+            // 
+            // groupBoxPrzyrzady
+            // 
+            this.groupBoxPrzyrzady.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBoxPrzyrzady.BackColor = System.Drawing.Color.Bisque;
+            this.groupBoxPrzyrzady.Controls.Add(this.listBoxPrzyrzady);
+            this.groupBoxPrzyrzady.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.groupBoxPrzyrzady.ForeColor = System.Drawing.Color.Black;
+            this.groupBoxPrzyrzady.Location = new System.Drawing.Point(13, 110);
+            this.groupBoxPrzyrzady.Name = "groupBoxPrzyrzady";
+            this.groupBoxPrzyrzady.Size = new System.Drawing.Size(315, 492);
+            this.groupBoxPrzyrzady.TabIndex = 61;
+            this.groupBoxPrzyrzady.TabStop = false;
+            this.groupBoxPrzyrzady.Text = "Lista przyrządów pomiarowych";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.BackColor = System.Drawing.Color.Bisque;
+            this.groupBox5.Controls.Add(this.radioButtonOstatniPrzegladPrzyrzadu);
+            this.groupBox5.Controls.Add(this.radioButtonNazwaPrzyrzadu);
+            this.groupBox5.Controls.Add(this.radioButtonNrSystemowyPrzyrzadu);
+            this.groupBox5.Controls.Add(this.radioButtonTypPrzyrzadu);
+            this.groupBox5.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox5.ForeColor = System.Drawing.Color.Black;
+            this.groupBox5.Location = new System.Drawing.Point(12, 28);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(315, 76);
+            this.groupBox5.TabIndex = 63;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Sortowanie";
+            // 
+            // radioButtonOstatniPrzegladPrzyrzadu
+            // 
+            this.radioButtonOstatniPrzegladPrzyrzadu.AutoSize = true;
+            this.radioButtonOstatniPrzegladPrzyrzadu.BackColor = System.Drawing.Color.Bisque;
+            this.radioButtonOstatniPrzegladPrzyrzadu.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.radioButtonOstatniPrzegladPrzyrzadu.ForeColor = System.Drawing.Color.Black;
+            this.radioButtonOstatniPrzegladPrzyrzadu.Location = new System.Drawing.Point(161, 46);
+            this.radioButtonOstatniPrzegladPrzyrzadu.Name = "radioButtonOstatniPrzegladPrzyrzadu";
+            this.radioButtonOstatniPrzegladPrzyrzadu.Size = new System.Drawing.Size(116, 24);
+            this.radioButtonOstatniPrzegladPrzyrzadu.TabIndex = 6;
+            this.radioButtonOstatniPrzegladPrzyrzadu.Text = "Ostatni przegląd";
+            this.radioButtonOstatniPrzegladPrzyrzadu.UseVisualStyleBackColor = false;
+            // 
+            // radioButtonNazwaPrzyrzadu
+            // 
+            this.radioButtonNazwaPrzyrzadu.AutoSize = true;
+            this.radioButtonNazwaPrzyrzadu.BackColor = System.Drawing.Color.Bisque;
+            this.radioButtonNazwaPrzyrzadu.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.radioButtonNazwaPrzyrzadu.ForeColor = System.Drawing.Color.Black;
+            this.radioButtonNazwaPrzyrzadu.Location = new System.Drawing.Point(15, 21);
+            this.radioButtonNazwaPrzyrzadu.Name = "radioButtonNazwaPrzyrzadu";
+            this.radioButtonNazwaPrzyrzadu.Size = new System.Drawing.Size(64, 24);
+            this.radioButtonNazwaPrzyrzadu.TabIndex = 4;
+            this.radioButtonNazwaPrzyrzadu.Text = "Nazwa";
+            this.radioButtonNazwaPrzyrzadu.UseVisualStyleBackColor = false;
+            // 
+            // radioButtonNrSystemowyPrzyrzadu
+            // 
+            this.radioButtonNrSystemowyPrzyrzadu.AutoSize = true;
+            this.radioButtonNrSystemowyPrzyrzadu.BackColor = System.Drawing.Color.Bisque;
+            this.radioButtonNrSystemowyPrzyrzadu.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.radioButtonNrSystemowyPrzyrzadu.ForeColor = System.Drawing.Color.Black;
+            this.radioButtonNrSystemowyPrzyrzadu.Location = new System.Drawing.Point(161, 21);
+            this.radioButtonNrSystemowyPrzyrzadu.Name = "radioButtonNrSystemowyPrzyrzadu";
+            this.radioButtonNrSystemowyPrzyrzadu.Size = new System.Drawing.Size(102, 24);
+            this.radioButtonNrSystemowyPrzyrzadu.TabIndex = 2;
+            this.radioButtonNrSystemowyPrzyrzadu.Text = "Nr systemowy";
+            this.radioButtonNrSystemowyPrzyrzadu.UseVisualStyleBackColor = false;
+            // 
+            // radioButtonTypPrzyrzadu
+            // 
+            this.radioButtonTypPrzyrzadu.AutoSize = true;
+            this.radioButtonTypPrzyrzadu.BackColor = System.Drawing.Color.Bisque;
+            this.radioButtonTypPrzyrzadu.Font = new System.Drawing.Font("Arial Narrow", 11F);
+            this.radioButtonTypPrzyrzadu.ForeColor = System.Drawing.Color.Black;
+            this.radioButtonTypPrzyrzadu.Location = new System.Drawing.Point(15, 46);
+            this.radioButtonTypPrzyrzadu.Name = "radioButtonTypPrzyrzadu";
+            this.radioButtonTypPrzyrzadu.Size = new System.Drawing.Size(48, 24);
+            this.radioButtonTypPrzyrzadu.TabIndex = 0;
+            this.radioButtonTypPrzyrzadu.Text = "Typ";
+            this.radioButtonTypPrzyrzadu.UseVisualStyleBackColor = false;
+            // 
+            // groupBoxPicture
+            // 
+            this.groupBoxPicture.BackColor = System.Drawing.Color.CadetBlue;
+            this.groupBoxPicture.Controls.Add(this.buttonWgrajZdjeciePrzyrzad);
+            this.groupBoxPicture.Controls.Add(this.pictureBoxZdjeciePrzyrzadu);
+            this.groupBoxPicture.Controls.Add(this.buttonUsunZdjeciePrzyrzad);
+            this.groupBoxPicture.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBoxPicture.ForeColor = System.Drawing.Color.Black;
+            this.groupBoxPicture.Location = new System.Drawing.Point(865, 102);
+            this.groupBoxPicture.Name = "groupBoxPicture";
+            this.groupBoxPicture.Size = new System.Drawing.Size(384, 500);
+            this.groupBoxPicture.TabIndex = 66;
+            this.groupBoxPicture.TabStop = false;
+            this.groupBoxPicture.Text = "Zdjęcie";
+            // 
+            // buttonWgrajZdjeciePrzyrzad
+            // 
+            this.buttonWgrajZdjeciePrzyrzad.BackColor = System.Drawing.Color.Linen;
+            this.buttonWgrajZdjeciePrzyrzad.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.buttonWgrajZdjeciePrzyrzad.ForeColor = System.Drawing.Color.Black;
+            this.buttonWgrajZdjeciePrzyrzad.Location = new System.Drawing.Point(6, 463);
+            this.buttonWgrajZdjeciePrzyrzad.Name = "buttonWgrajZdjeciePrzyrzad";
+            this.buttonWgrajZdjeciePrzyrzad.Size = new System.Drawing.Size(170, 27);
+            this.buttonWgrajZdjeciePrzyrzad.TabIndex = 53;
+            this.buttonWgrajZdjeciePrzyrzad.Text = "Wgraj zdjęcie";
+            this.buttonWgrajZdjeciePrzyrzad.UseVisualStyleBackColor = false;
+            // 
+            // pictureBoxZdjeciePrzyrzadu
+            // 
+            this.pictureBoxZdjeciePrzyrzadu.Location = new System.Drawing.Point(6, 21);
+            this.pictureBoxZdjeciePrzyrzadu.Name = "pictureBoxZdjeciePrzyrzadu";
+            this.pictureBoxZdjeciePrzyrzadu.Size = new System.Drawing.Size(372, 433);
+            this.pictureBoxZdjeciePrzyrzadu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxZdjeciePrzyrzadu.TabIndex = 51;
+            this.pictureBoxZdjeciePrzyrzadu.TabStop = false;
+            // 
+            // buttonUsunZdjeciePrzyrzad
+            // 
+            this.buttonUsunZdjeciePrzyrzad.BackColor = System.Drawing.Color.Linen;
+            this.buttonUsunZdjeciePrzyrzad.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
+            this.buttonUsunZdjeciePrzyrzad.ForeColor = System.Drawing.Color.Black;
+            this.buttonUsunZdjeciePrzyrzad.Location = new System.Drawing.Point(212, 463);
+            this.buttonUsunZdjeciePrzyrzad.Name = "buttonUsunZdjeciePrzyrzad";
+            this.buttonUsunZdjeciePrzyrzad.Size = new System.Drawing.Size(170, 27);
+            this.buttonUsunZdjeciePrzyrzad.TabIndex = 52;
+            this.buttonUsunZdjeciePrzyrzad.Text = "Usuń zdjęcie";
+            this.buttonUsunZdjeciePrzyrzad.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(1262, 636);
+            this.Controls.Add(this.groupBoxPicture);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBoxPrzyrzady);
+            this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.toolStrip1);
-            this.Controls.Add(this.groupBoxPicture);
-            this.Controls.Add(this.groupBoxEdit);
-            this.Controls.Add(this.groupBoxFind);
-            this.Controls.Add(this.groupBoxSort);
-            this.Controls.Add(this.groupBoxStandData);
-            this.Controls.Add(this.groupBoxStanowiska);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.groupBoxStanowiska.ResumeLayout(false);
-            this.groupBoxStandData.ResumeLayout(false);
-            this.groupBoxStandData.PerformLayout();
-            this.groupBoxSort.ResumeLayout(false);
-            this.groupBoxSort.PerformLayout();
-            this.groupBoxFind.ResumeLayout(false);
-            this.groupBoxFind.PerformLayout();
-            this.groupBoxEdit.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStandPicture)).EndInit();
-            this.groupBoxPicture.ResumeLayout(false);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBoxPrzyrzady.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.groupBoxPicture.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxZdjeciePrzyrzadu)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBoxStanowiska;
-        private System.Windows.Forms.ListBox listBoxMeasuringStand;
-        private System.Windows.Forms.GroupBox groupBoxStandData;
-        private System.Windows.Forms.Label labelSystemNumber;
-        private System.Windows.Forms.TextBox textBoxSystemNumber;
-        private System.Windows.Forms.RichTextBox richTextBoxMaker;
-        private System.Windows.Forms.Label labelDate;
-        private System.Windows.Forms.Label labelStandType;
-        private System.Windows.Forms.DateTimePicker dateTimePickerDate;
-        private System.Windows.Forms.TextBox textBoxStandType;
-        private System.Windows.Forms.Label labelStandKind;
-        private System.Windows.Forms.TextBox textBoxStandKind;
-        private System.Windows.Forms.Label labelStandName;
-        private System.Windows.Forms.ComboBox comboBoxStandKeeper;
-        private System.Windows.Forms.Label labelStandFactoryNumber;
-        private System.Windows.Forms.TextBox textBoxStandName;
-        private System.Windows.Forms.TextBox textBoxStandFactoryNumber;
-        private System.Windows.Forms.Label labelMaker;
-        private System.Windows.Forms.RichTextBox richTextBoxUwagi;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label labelStandKeeper;
-        private System.Windows.Forms.GroupBox groupBoxSort;
-        private System.Windows.Forms.RadioButton radioButtonStandDate;
-        private System.Windows.Forms.RadioButton radioButtonStandName;
-        private System.Windows.Forms.RadioButton radioButtonStandFactoryNumber;
-        private System.Windows.Forms.RadioButton radioButtonStandType;
-        private System.Windows.Forms.GroupBox groupBoxFind;
-        private System.Windows.Forms.Button buttonSzukaj;
-        private System.Windows.Forms.TextBox textBoxFind;
-        private System.Windows.Forms.GroupBox groupBoxEdit;
-        private System.Windows.Forms.Button buttonNew;
-        private System.Windows.Forms.Button buttonDelete;
-        private System.Windows.Forms.Button buttonSave;
-        private System.Windows.Forms.Button buttonCancel;
-        private System.Windows.Forms.Button buttonAddPicture;
-        private System.Windows.Forms.Button buttonDeletePicture;
-        private System.Windows.Forms.PictureBox pictureBoxStandPicture;
-        private System.Windows.Forms.GroupBox groupBoxPicture;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.TextBox textBoxNrSystemowyPrzyrzadu;
+        private System.Windows.Forms.RichTextBox richTextBoxDaneProducentaPrzyrzadu;
+        private System.Windows.Forms.TextBox textBoxTypPrzyrzadu;
+        private System.Windows.Forms.TextBox textBoxRodzajPrzyrzadu;
+        private System.Windows.Forms.ComboBox comboBoxOpiekunPrzyrzadu;
+        private System.Windows.Forms.TextBox textBoxNazwaPrzyrzadu;
+        private System.Windows.Forms.TextBox textBoxNrfabrycznyPrzyrzadu;
+        private System.Windows.Forms.Button buttonSzukajPrzyrzad;
+        private System.Windows.Forms.TextBox textBoxZnajdzPrzyrzad;
+        private System.Windows.Forms.DateTimePicker dateTimePickerDataOstPrzegladuPrzyrzadu;
+        private System.Windows.Forms.Button buttonAnulujPrzyrzad;
+        private System.Windows.Forms.Button buttonNowyPrzyrzad;
+        private System.Windows.Forms.Button buttonZapiszPrzyrzad;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button buttonUsunPrzyrzad;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ListBox listBoxPrzyrzady;
+        private System.Windows.Forms.GroupBox groupBoxPrzyrzady;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.RadioButton radioButtonOstatniPrzegladPrzyrzadu;
+        private System.Windows.Forms.RadioButton radioButtonNazwaPrzyrzadu;
+        private System.Windows.Forms.RadioButton radioButtonNrSystemowyPrzyrzadu;
+        private System.Windows.Forms.RadioButton radioButtonTypPrzyrzadu;
+        private System.Windows.Forms.GroupBox groupBoxPicture;
+        private System.Windows.Forms.Button buttonWgrajZdjeciePrzyrzad;
+        private System.Windows.Forms.PictureBox pictureBoxZdjeciePrzyrzadu;
+        private System.Windows.Forms.Button buttonUsunZdjeciePrzyrzad;
     }
 }
 
